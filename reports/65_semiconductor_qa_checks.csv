@@ -1,0 +1,9 @@
+﻿check,max_abs_difference_trillion_yen,status
+Phase 59 vs Phase 61 country-direction totals,0.0,PASS
+Phase 61 vs Phase 62 country-direction totals,0.0,PASS
+Phase 62 HS6 components vs net total,1.3877787807814457e-17,PASS
+Phase 62 totals vs Phase 63 heatmap aggregates,1.3877787807814457e-17,PASS
+Phase 62 totals vs Phase 63 country ranking,0.0,PASS
+Heatmap contains exactly the three selected HS6 codes,0.0,PASS
+Heatmap row count equals country-direction rows x 3 HS6,0.0,PASS
+Phase 59 vs Phase 61 export/import totals,0.0,PASS

@@ -1,0 +1,46 @@
+﻿# Source datasets and generated data
+data/raw/
+data/processed/
+data/reference/
+
+# Local databases and analytical data files
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.duckdb
+*.csv
+*.xlsx
+*.xls
+
+# Python environments and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+logs/
+temp/
+*.log
+*.tmp
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+
+# Script and phase backups
+*.bak*

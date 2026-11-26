@@ -1,0 +1,23 @@
+PHASE 65 - SEMICONDUCTOR DASHBOARD QA
+
+Phase 59 rows: 145
+Phase 61 rows: 145
+Phase 62 rows: 145
+Phase 63 heatmap rows: 435
+Phase 63 ranking rows: 145
+Expected heatmap rows: 435
+
+CHECK RESULTS
+PASS: Phase 59 vs Phase 61 country-direction totals (max difference 0.000000000000)
+PASS: Phase 61 vs Phase 62 country-direction totals (max difference 0.000000000000)
+PASS: Phase 62 HS6 components vs net total (max difference 0.000000000000)
+PASS: Phase 62 totals vs Phase 63 heatmap aggregates (max difference 0.000000000000)
+PASS: Phase 62 totals vs Phase 63 country ranking (max difference 0.000000000000)
+PASS: Heatmap contains exactly the three selected HS6 codes (max difference 0.000000000000)
+PASS: Heatmap row count equals country-direction rows x 3 HS6 (max difference 0.000000000000)
+PASS: Phase 59 vs Phase 61 export/import totals (max difference 0.000000000000)
+
+OVERALL: PASS
+
+Scope: HS6 854231, 854232, 854239; 2017 to 2020.
+Interpretation: descriptive trade-value changes, not causal estimates.
